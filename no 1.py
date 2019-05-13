@@ -9,7 +9,7 @@ elif num == 2:
 elif num > 2:
     for i in range(2,num):
         a = lst[len(lst)-1] + lst[len(lst)-2]
-    lst.append(a)
+        lst.append(a)
     print(lst)
 
 else:
